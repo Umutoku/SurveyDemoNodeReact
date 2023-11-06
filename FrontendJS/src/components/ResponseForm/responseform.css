@@ -1,0 +1,95 @@
+.response-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    /* margin: 6rem 0 0 0; */
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .response-form-container h1 {
+    text-align: center;
+    margin: 0 0 20px;
+  }
+  
+  .response-form-container input[type="radio"],
+  .response-form-container input[type="checkbox"] {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: .2rem .1rem;
+  }
+
+    .back-btn {
+    border-radius: 50%;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid rgb(73, 128, 205) !important;
+    background-color: silver !important;
+    color: rgb(73, 128, 205) !important;
+    position: fixed;
+    top:10%;
+    left: 2%;
+    width: 2rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .back-btn:hover {
+
+    color: silver !important;
+    background-color: rgb(73, 128, 205) !important;
+    transition: all .3s;
+
+  }
+
+  .fullname, .number{
+    border-radius: .5rem;
+    padding: .5rem;
+    border: 1px solid silver;
+    margin: .2rem .4rem;
+  }
+  
+  .response-form-container ul {
+    list-style: none;
+    padding: 0.1rem; /* Soldaki boşluğu kaldırır */
+    text-align: center; /* Elemanları ortalar */
+  }
+  
+  .response-form-container ul li {
+    margin: 5px;
+    margin-left: .5rem;
+        text-align: left; /* Metni sola yaslar */
+  }
+  
+  .response-form-container label {
+    display: block;
+  }
+  
+  .response-form-container button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(113, 204, 234);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    width: 100%;
+  }
+  
+  .response-form-container button:hover {
+    background-color: #0069d9; /* Hover rengini koyu mavi olarak ayarladık */
+  }
+  
+  .textarea {
+    /* Burada stil tanımlamalarını yapabilirsiniz */
+    width: 100%; /* Genişlik belirtmek için örnek bir stil tanımlaması */
+    padding: 10px; /* İç kenar boşluğunu belirtmek için örnek bir stil tanımlaması */
+    border: 1px solid #ccc; /* Kenar çizgisi stilini belirtmek için örnek bir stil tanımlaması */
+    border-radius: .5rem; /* Köşe yuvarlama stilini belirtmek için örnek bir stil tanımlaması */
+  }
+  

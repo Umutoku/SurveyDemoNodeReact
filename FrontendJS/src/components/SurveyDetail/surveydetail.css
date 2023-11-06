@@ -1,0 +1,79 @@
+
+.survey-detail-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.survey-detail-content {
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.survey-detail-content h1 {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.survey-detail-content ul {
+  list-style-type: none;
+  padding: 0;
+  padding: .7rem;
+}
+
+.survey-detail-content ul li {
+  margin: 5px 0;
+}
+
+.survey-detail-content p {
+  margin: 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.survey-detail-content button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgb(113, 204, 234);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.survey-detail-content button:hover {
+  background-color: #097493;
+}
+
+
+.back-btn-detail {
+  border-radius: 20% !important;
+  font-size: 1.2rem;
+  padding: .3rem .7rem !important;
+  border: 1px solid rgb(73, 128, 205);
+  background-color: silver;
+  color: rgb(73, 128, 205);
+  position: fixed !important;
+  top: 11.5% !important;
+  left: 2%;
+  cursor: pointer;
+}
+
+.back-btn-detail:hover {
+
+  color: silver;
+  background-color: rgb(73, 128, 205);
+  transition: all .3s;
+
+}

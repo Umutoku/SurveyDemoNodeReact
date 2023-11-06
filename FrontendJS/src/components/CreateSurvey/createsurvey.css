@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+
+  .createSurvey h2 {
+    text-align: center;
+  }
+  
+  .create-survey-container {
+    width: 30rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 2rem;
+    max-height: 70vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    cursor: pointer;
+  }
+
+  .back-btn-create {
+    border-radius: 20% !important;
+    font-size: 1.2rem;
+    padding: .4rem .7rem !important;
+    border: 1px solid rgb(73, 128, 205);
+    background-color: silver;
+    color: rgb(73, 128, 205);
+    position: fixed !important;
+    top: 12% !important;
+    left: 2%;
+  }
+  
+  .back-btn-create:hover {
+  
+    color: silver;
+    background-color: rgb(73, 128, 205);
+    transition: all .3s;
+  
+  }
+  
+  .create-survey-container h2 {
+    text-align: center;
+  }
+  
+  .create-survey-container label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    color: rgb(125, 121, 121);
+  }
+  
+  .create-survey-container input,
+  .create-survey-container select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0;
+  }
+  
+  .create-survey-container button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 73%;
+    
+  }
+
+  .create-survey-container button:hover {
+    background-color: #4062ab;
+    transition: all .4s;
+  }
+  
+  .create-survey-container .questions-container {
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 10px 0;
+  }
+  
+  .questions {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,45 @@
+/* responsesbysurvey.css */
+.responses-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .responses-container h1 {
+    color: #333;
+  }
+  
+  .responses-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .responses-container li {
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  
+  .back-btn-responses {
+    border-radius: 20% !important;
+    font-size: 1.2rem;
+    padding: .3rem .7rem !important;
+    border: 1px solid rgb(73, 128, 205);
+    background-color: silver;
+    color: rgb(73, 128, 205);
+    position: fixed !important;
+    top: 11.5% !important;
+    left: 2%;
+  }
+  
+  .back-btn-responses:hover {
+  
+    color: silver;
+    background-color: rgb(73, 128, 205);
+    transition: all .3s;
+  
+  }
+  

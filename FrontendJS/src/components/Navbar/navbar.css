@@ -1,0 +1,63 @@
+.Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(89, 117, 154);
+    z-index: 1000; /* Sayfanın üzerinde olması için yüksek bir z-index değeri kullanabilirsiniz */
+    padding: 0.5rem;
+    margin-bottom: 14rem !important;
+  }
+  
+  .Navbar-div {
+    background-color: rgb(71, 80, 118);
+  }
+  
+  .navbar-link {
+    margin-right: 1.5rem;
+    color: rgb(113, 204, 234) !important;
+    text-decoration: none;
+    letter-spacing: 0.03rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+
+  }
+  
+  .navbar-link:hover {
+    color: rgb(48, 176, 219) !important;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .logo {
+    display: inline;
+    letter-spacing: 3px;
+    padding: 1rem;
+    color: rgb(113, 204, 234) !important;
+    font-size: 1.1rem;
+    text-decoration: none;
+    background-color: inherit;
+    border: none;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo:hover {
+    cursor: pointer;
+    color: rgb(48, 176, 219) !important;
+    transition: all 0.4s ease-in-out;
+    
+  }
+  
+  /*! Responsive */
+ 
+
+  

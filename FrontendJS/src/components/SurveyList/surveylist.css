@@ -1,0 +1,74 @@
+/* SurveyList.css */
+.survey-list-container {
+    padding: 38px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 50vh;
+    position: relative;
+  }
+
+  .survey-title {
+    text-align: center;
+    margin: 1.2rem 0;
+  }
+  
+  .survey-list-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .survey-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .survey-list-container li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .survey-list-container li:first-child {
+    margin-top: 0;
+  }
+
+
+  
+  .survey-list-container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(73, 128, 205);
+    font-size: 1.1rem;
+  }
+
+  .survey-list-container a:hover {
+
+    color: rgb(59, 131, 232);  }
+  
+  .survey-list-container button {
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .survey-list-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Ayrıca linklerin yanına eklenen boşluk için de bir stil ekleyelim */
+  .survey-list-container .link-space {
+    margin-right: 10px;
+  }
+  
